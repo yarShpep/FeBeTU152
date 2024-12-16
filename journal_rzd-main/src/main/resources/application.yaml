@@ -17,5 +17,11 @@ spring:
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.yaml
 
+  rest:
+    frontend:
+      url: http://localhost:8080
+
 server:
   port: 8081
+
+
